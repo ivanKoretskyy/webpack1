@@ -4,14 +4,14 @@
       [
           "@babel/preset-react",
           {
-              "runtime": "automatic"
+              "runtime": "automatic" // TODO: CHECK WHAT 
           }
       ],
       "@babel/preset-typescript"
   ],
   "plugins": [
       [
-          "@babel/plugin-transform-runtime",
+          "@babel/plugin-transform-runtime", // TODO: CHECK WHAT 
           {
               "regenerator": true
           }
